@@ -1,0 +1,591 @@
+.col-md-3{
+	padding-bottom:50px;
+	padding-top:50px;
+}
+.col-md-3{
+	padding-bottom:50px;
+	padding-top:50px;
+}
+.col-md-6{
+	padding-bottom:50px;
+	padding-top:50px;
+}
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+                                                                  /*......Header Area.......*/
+.navbar-brand img{
+	height:40px;
+	padding-left:30px;
+}
+.navbar-nav {
+    margin: 4px;
+	float:right;
+}
+
+.navbar-nav li{
+	padding:0px 10px;
+}
+.navbar-nav li a{
+	text-align:left;
+	text-transform:uppercase;
+	transition:1s ease;
+}
+.navbar-nav li a:hover{
+	color:#007bff !important;
+}
+.navbar-toggle{
+		border:1px solid #007bff !important;
+}
+@media all and (max-width:769px){
+	.navbar-nav {
+		margin: 5px;
+		float:left;
+    }
+	.navbar-header{
+		padding:3px;
+	}
+	.carousel-caption{
+		display:none;
+	}
+	.left{
+		display:none;
+	}
+	.right{
+		display:none;
+	}
+}
+@media all and (max-width:992px){
+	.navbar-nav li{
+		padding:0px;
+	}
+	.nav > li > a {
+    
+    padding: 10px 10px;
+	}
+}
+                                                                    /*...........................Slider..........................................*/
+								
+.item img{
+	width:100%;
+	height:100vh;
+}
+.carousel {
+	
+	width:100%;
+	overflow:hidden;
+}
+.carousel-caption{
+	top:50%;
+	transform:translateY(-50%);
+	bottom:initial !important;
+}
+.carousel-caption h3{
+	font-size:42px;
+}
+/*............................................................................................About us.........................................................................*/
+
+.about{
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#555;
+}
+.about-content{
+	padding-top:20px;
+}
+.about .btn{
+	margin-top:20px;
+	margin-bottom:30px;
+	/*.......................................................................................progress bar.........................................................................*/
+}
+#skill-bar p{
+	margin-bottom:6px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+.progress-bar{
+	border-radius:16px;
+}
+.progress{
+	border-radius:16px !important;
+	margin-bottom:20px;
+}
+/*.........................................................................................Sevices..................................................................................*/
+.service{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../image/1.jpg);
+	background-position:center;
+	background-size:cover;
+	color:#efefef !important;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.service h1{
+	text-align:center;
+	color:#efefef !important;
+	padding-bottom:10px;
+}
+
+.service h1::after {
+
+    content: '';
+    width: 170px;
+    height: 3px;
+    display: block;
+    background: #efefef;
+    margin: 20px auto 5px;
+
+} 
+.s{
+	margin-top:40px;
+	text-align:center;
+}
+.s p{
+	font-size:14px;
+	margin-top:20px;
+	color:#ccc;
+}
+.icon{
+   font-size:40px;
+   line-height:55px;
+   height:80px;
+   text-align:center;
+   width:80px;
+   margin:20px auto;
+   padding:16px;
+   border:1px solid #fff;
+   border-radius:50%;
+ 
+}
+.s .col-md-3:hover{
+	background:#007bff;
+	transition:2s ease;
+	cursor:pointer;
+}
+/*                      ...........                                 team member      ..............                                  */
+#team{
+	padding-top:50px;
+	padding-bottom:50px;
+	background:#ccc;
+}
+#team h1{
+	text-align:center;
+	color:#555;
+}
+#team h1::after{
+	content:'';
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+	background:#007bff;
+}
+.profile{
+	margin-top:25px;
+}
+.profile .image{
+	opacity:1;
+	display:block;
+	position:relative;
+}
+.profile .image img{
+	filter:grayscale(1);
+	width:100%;
+	height:350px;
+}
+.profile .image img:hover{
+	filter:grayscale(0);
+	cursor:pointer;
+}
+.profile h2{
+	margin-top:15px;
+	font-size:22px;
+	font-weight:bold;
+	color:#007bff;
+}
+.profile h3{
+	margin-top:15px;
+	font-weight:bold;
+	font-size:15px;
+}
+#team i{
+	height:25px;
+	width:25px;
+	color:#007bff;
+	background:#fff;
+	border-radius:50%;
+	text-align:center;
+	padding:4px;
+}
+.image ul{
+	list-style:none;
+	position:absolute;
+	margin:15px auto;
+	bottom:0%;
+	left:50%;
+	transform:translateX(-50%);
+	opacity:0;
+}
+.image ul li{
+	display:inline-block;
+	padding:5px;
+}
+.image:hover ul{
+	opacity:1;
+}
+.image ul li .image ul{
+	transition:.5s ease;
+}
+/*.......................................................................promo.................................................................*/
+#promo{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/7.jpg);
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	text-align:center;
+	color:#fff;
+	font-size:40px;
+	padding:100px;
+}
+@media all and (max-width:300px){
+	#promo{
+		padding: 58px;
+	}
+	#promo p{
+		font-size:20px;
+		font-weight:bold;
+		text-align:left;
+		padding-left:3px;
+	}
+}
+/*...................................................................Price Plan................................................................*/
+#price{
+	padding:40px 0px;
+	background:#efefef;
+}
+#price h1{
+	text-align:center;
+	color:efefef;
+	padding-bottom:15px;
+}
+#price h1::after{
+	content:'';
+	display:block;
+	height:3px;
+	width:170px;
+	background:#007bff;
+	margin:20px auto 5px;
+}
+.single-price{
+	background:#fff;
+	width:100%;
+	transition:.5s ease;
+}
+.single-price:hover{
+	box-shadow:0px 2px 20px #333;
+}
+.price-head{
+	background:#007bff;
+	padding:10px 5px;
+	text-align:center;
+	width:100%;
+}
+.price-head h2{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:30px;
+	padding:5px;
+	margin-bottom:5px;
+}
+.price-head p{
+	color:#fff;
+	font-weight:bold;
+	font-size:25px;
+	padding:5px;
+}
+.price-head span{
+	font-size:15px;
+}
+.price-content{
+	padding:20px 15px;
+}
+.price-content ul li{
+	list-style:none;
+	display:block;
+	border-bottom:1px solid #efefef;
+	padding:15px 10px;
+	
+}
+.price-content ul li:last-child{
+	border-bottom:none;
+}
+.fa-check-circle
+{
+	color:green;
+	margin-right:10px;
+	font-size:20px;
+}
+.fa-times-circle{
+	color:red;
+	margin-right:10px;
+	font-size:20px;
+}
+.price-button{
+	padding:15px 15px 30px;
+	text-align:center;
+	
+}
+.buy-btn
+{
+	background:#007bff;
+	border-radius:3px;
+	padding:15px 50px;
+	font-size:18px;
+	transition:.5s;
+	color:#fff;
+}
+.buy-btn:hover{
+	border-color:1px solid #fff;
+	background:#3f51b5;
+}
+/*...........................................................*Testimonial*............................*/
+#testimonial{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#testimonial h1{
+	font-size:40px;
+	text-align:center;
+}
+#testimonial h1:after{
+	content:'';
+	width:170px;
+	height:3px;
+	display:block;
+	margin:20px auto 5px;
+	text-align:center;
+	background:#007bff;
+}
+#testimonial p{
+	padding:20px;
+}
+#testimonial .row{
+	margin:40px auto;
+}
+#testimonial .col-md-4{
+	margin:40px auto 20px;
+}
+.user{
+	padding:70px 10px 10px;
+	background:#efefef;
+	cursor:pointer;
+	box-shadow:0 0 15px 5px #ccc;
+}
+
+.user img{
+	top:-60px;
+	position:absolute;
+	left:35%;
+	border:10px solid #fff;
+	width:120px;
+	height:120px;
+	border-radius:50%;
+}
+
+.user h3{
+	font-size:20px;
+	margin-top:20px;
+	color:#007bff;
+	font-weight:bold;
+}
+.user span{
+	font-size:12px;
+	color:#333;
+}
+blockquote{
+	font-size:15px;
+	line-height:30px;
+}
+blockquote::before{
+	content:'\93';
+	font-size:50px;
+	color:#007bff;
+}
+.user:hover{
+	padding:70px 10px 10px;
+	background:#efefef;
+	box-shadow:0 0 20px 5px #007bff;
+	transition:.5s;
+}
+/*................................................................................Get in touch.............................................................................*/
+
+#touch{
+	padding-top:50px;
+	padding-bottom:50px;
+	background:#efefef;
+}
+#touch h1{
+	font-size:40px;
+	text-align:center;
+}
+#touch h1::after{
+	content:'';
+	width:170px;
+	background:#007bff;
+	display:block;
+	height:3px;
+	margin:20px auto 10px;
+}
+.contact-form1{
+	margin:40px auto 10px;
+
+}
+.contact-info{
+	margin:40px auto 10px;
+}
+.followus{
+	background:#fff;
+	display:block;
+	color:#555;
+	padding:10px 15px;
+	margin-bottom:10px;
+	border-radius:5px;
+	border:1px solid #efefef;
+}
+.followus span{
+	font-size:16px;
+	font-weight:bold;
+}
+.followus i{
+	font-size:20px;
+	padding:0px 15px;
+	color:#007bff;
+}
+.last i {
+    font-size: 13px;
+    color: #007bff;
+    border-radius: 50%;
+    padding: 2px 16px;
+    line-height: 30px;
+    background: #EFEFEF;
+    margin: 0px 10px;
+    text-align: center;
+	transition:1s ease;
+}
+.last i:hover{
+	background:#007bff;
+	color:#fff;
+	transform:scale(1.2);
+}
+/*........................................................................................Footer Area.........................................................................*/
+#footer{
+	padding-top:50px;
+	padding-bottom:50px;
+	background:#343A40;
+	color:#ccc;
+	font-size:15px;
+	font-weight:bold;
+}
+.foot1 ul li{
+	list-style:none;
+	padding:15px 15px 10px 10px;
+	display:block;
+	border-bottom:1px solid #555;
+}
+.foot1 ul li:first-child{
+	
+	padding-left:7px;
+	color:#868e96;
+}
+.foot2 ul li:first-child{
+	
+	padding-left:7px;
+	color:#868e96;
+}
+.foot3 ul li:first-child{
+	
+	padding-left:15px;
+	color:#868e96;
+}
+.foot4 ul li:first-child{
+	
+	padding-left:15px;
+	color:#868e96;
+}
+.foot1 ul li:last-child{
+	border:none;
+}
+.foot2 ul li{
+	display:block;
+	list-style:none;
+	padding:15px 15px 10px 10px;
+
+}
+.foot2 i{
+	font-size:30px;
+	font-weight:bold;
+	padding-right:15px;
+}
+.foot2 p{
+	font-size:10px;
+	display:inline;
+	font-weight:bold;
+}
+
+.foot3 ul li{
+	display:block;
+	list-style:none;
+	padding:15px 15px 10px 10px;
+
+}
+.foot3 i{
+	font-size:14px;
+	font-weight:bold;
+	opacity:0;
+	color:#ffa94d;
+	padding-right:15px;
+}
+.foot3 ul li:hover i{
+	opacity:1;
+	transition:.5s;
+}
+.foot3 p{
+	font-size:14px;
+	display:inline;
+	font-weight:bold;
+}
+.foot4 ul li{
+	display:block;
+	list-style:none;
+	padding:15px 15px 10px 10px;
+
+}
+.foot4 i{
+	font-size:14px;
+	font-weight:bold;
+	color:#ffa94d;
+	opacity:0;
+	padding-right:15px;
+}
+.foot4 ul li:hover i{
+	opacity:1;
+	transition:.5s;
+}
+.foot4 p{
+	font-size:14px;
+	display:inline;
+	font-weight:bold;
+}
+.totop{
+	display:none;
+}
+.totop i{
+	font-size:30px;
+	position:fixed;
+	z-index:1000;
+	right:25px;
+	bottom:50px;
+}

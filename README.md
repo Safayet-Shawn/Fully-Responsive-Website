@@ -31,12 +31,21 @@
  
 # Screenshots
 
-<img src="project-screenshot/hero.PNG" width="100%">
+<img src="image/hero.PNG" width="100%">
 
-<img src="project-screenshot/about.PNG" width="100%">
+<img src="image/about.PNG" width="100%">
 
-<img src="project-screenshot/img_sec.PNG" width="100%">
+<img src="image/service.PNG" width="100%">
 
-<img src="project-screenshot/callToAction.PNG" width="100%">
+<img src="image/team.PNG" width="100%">
 
-<img src="project-screenshot/footer.PNG" width="100%">
+<img src="image/testimonial.PNG" width="100%">
+
+<img src="image/box.PNG" width="100%">
+
+<img src="image/callToAction.PNG" width="100%">
+
+<img src="image/contact.PNG" width="100%">
+
+<img src="image/footer.PNG" width="100%">
+
